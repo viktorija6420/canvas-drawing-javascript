@@ -603,7 +603,6 @@ const middleBlockRoof = casaCanvas.getContext('2d');
   middleBlockRoof.beginPath();
   middleBlockRoof.moveTo(70,29);
   middleBlockRoof.lineTo(110,29);
-  // middleBlockRoof.lineTo(215,12);
   middleBlockRoof.stroke();
 
 const middleBlockRoof2 = casaCanvas.getContext('2d');
@@ -942,8 +941,3 @@ const circleRoofAdd2 = casaCanvas.getContext('2d');
   circleRoofAdd2.lineTo(175,20);
   circleRoofAdd2.lineTo(188,47)
   circleRoofAdd2.stroke();
-
-// const highestWindowThirdBlock = casaCanvas.getContext('2d');
-//   highestWindowThirdBlock.beginPath();
-//   highestWindowThirdBlock.rect(270,4,4,16);
-//   highestWindowThirdBlock.stroke();
